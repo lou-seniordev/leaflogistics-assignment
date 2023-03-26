@@ -1,0 +1,39 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	font-size: larger;
+	font-weight: 500;
+	background-color: #fff;
+	border-radius: 10px;
+	gap: 5px;
+	border: 1px solid rgba(128, 128, 128, 0.82);
+	border-top: none;
+}
+
+.countryTabs {
+	display: flex;
+	gap: 4px;
+	margin-left: auto;
+}
+
+.countryButton {
+	border: 0px solid transparent !important;
+	background-color: transparent !important;
+	font-weight: bold;
+    padding: 10px;
+}
+.countryButton:hover {
+	border: 0px solid transparent !important;
+	background-color: var(---primary-color) !important;
+	color: var(---accent-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+.activeCountryButton {
+	border: 0px solid transparent !important;
+	background-color: var(---primary-color) !important;
+	color: var(---accent-color);
+    padding: 10px;
+    border-radius: 10px;
+}

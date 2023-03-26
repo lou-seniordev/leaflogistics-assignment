@@ -1,0 +1,5 @@
+.pageText {
+    color:var(---shadow-color);
+    font-weight: lighter;
+    margin-bottom: 30px;
+}

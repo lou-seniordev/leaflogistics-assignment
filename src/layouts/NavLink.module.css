@@ -1,0 +1,15 @@
+.activeTab {
+    background-color: var(---highlight-color);
+    color: var(---shadow-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+.tab {
+    padding: 10px;
+}
+.tab:hover {
+    background-color: var(---highlight-color);
+    color: var(---shadow-color);
+    padding: 10px;
+    border-radius: 10px
+}

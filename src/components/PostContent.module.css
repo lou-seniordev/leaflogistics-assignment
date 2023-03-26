@@ -1,0 +1,46 @@
+.card {
+	border-radius: 10px;
+	padding: 15px;
+	background-color: var(---highlight-color);
+	margin-bottom: 10px;
+	gap: 20px;
+	border-bottom: 1px solid var(---shadow-color);
+	width: 100%;
+	
+}
+
+.title {
+	color: var(---shadow-color);
+	margin-bottom: 5px;
+	background-color: var(---light-color);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.thumbnail {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.thumbnail > img {
+	object-fit: cover;
+	width: 100%;
+	border-radius: 12px;
+}
+
+.content {
+	margin-top: 50px 0px !important;
+}
+
+.backLink {
+	color: var(---light-color);
+	margin: 5px;
+	background-color: var(---shadow-color);
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.backLink:hover{
+	color: var(---accent-color);
+}

@@ -1,0 +1,21 @@
+.searchForm {
+background-color: var(---light-color);
+padding: 10px;
+border-radius: 10px;
+}
+
+.searchInput{
+    min-height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(---light-color);
+    box-sizing: 10px 10px 10px #000 !important;
+
+}
+
+.searchInput::placeholder {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}

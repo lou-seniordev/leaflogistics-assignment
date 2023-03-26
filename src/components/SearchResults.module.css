@@ -1,0 +1,12 @@
+.searchResults {
+    margin-top: 20px;
+}
+.searchList {
+    margin-top: 20px;
+}
+.noFound{
+    background-color: var(---light-color);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
